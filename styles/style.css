@@ -346,3 +346,140 @@ body {
   }
 }
 /* mobile */
+@media screen and (max-width: 320px) and (orientation: portrait) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .container {
+    padding: 56px 8px 40px 8px;
+  }
+  .footer-container {
+    width: 100%;
+  }
+  .header {
+    width: 320px;
+    height: 72px;
+  }
+  .header__logo {
+    padding-left: 8px;
+  }
+  .header__logo a img {
+    width: 105px;
+  }
+  .header-menu__btn {
+    width: 70px;
+    height: 40px;
+  }
+  .header-menu {
+    padding-left: 46px;
+  }
+  .btn--white {
+    margin-right: 10px;
+  }
+  .main-bg__img-mobile {
+    width: 320px;
+    display: block;
+    position: relative;
+  }
+  .main-bg__img-desc,
+  .main-bg__img-tablet {
+    display: none;
+  }
+  .main-bg {
+    position: relative;
+  }
+  .main-bg__content {
+    position: absolute;
+    width: 308px;
+    height: 180px;
+    left: 8px;
+    top: 131px;
+  }
+  .bg-content__title {
+    padding-top: 24px;
+    padding-left: 49px;
+    width: 100%;
+    height: 28px;
+    font-size: 24px;
+  }
+  .bg-content__text {
+    padding-top: 36px;
+    padding-left: 91px;
+  }
+  .bg-content__btn {
+    margin-left: 105px;
+    margin-top: -30px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .header-menu__basket-btn img {
+    display: none;
+  }
+  .snacks {
+    display: grid;
+  }
+  .snacks__title {
+    margin-top: 5px;
+    padding-left: 118px;
+  }
+  .snacks__line {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: var(--black);
+    margin: 5px 135px 43px 135px;
+    display: block;
+  }
+  .snacks-menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 16px;
+  }
+  .menu-card {
+    width: 308px;
+    height: 102px;
+  }
+  .menu-card__img {
+    width: 102px;
+    height: 102px;
+    left: 66.88%;
+  }
+  .menu-card__title {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .menu-card__price {
+    padding-top: 30px;
+  }
+  .footer {
+    width: 320px;
+    height: 900px;
+    display: flex;
+  }
+  .footer-container {
+    padding: 56px 8px 40px 8px;
+  }
+  .footer-left {
+    margin-bottom: -10px;
+  }
+  .footer-center {
+    margin-bottom: -50px;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px 161px 40px 9px;
+  }
+  .footer-bottom__elem {
+    margin-bottom: 24px;
+  }
+}
